@@ -1,0 +1,902 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ----------header----------- */
+header {
+    font-family: 'Tiro Telugu', serif;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2b705;
+    align-items: center;
+    height: 70px;
+}
+
+/* nav-menu */
+.nav-menu{
+    display: flex;
+    align-items: center;
+}   
+
+.nav-menu ul {
+    font-weight: bold;
+}
+
+.nav-menu .logo {
+    margin-top: 25px;
+}
+
+.nav-menu .logo img {
+    width: 150px ;
+}
+
+.nav-menu .logo img:hover {
+    cursor: pointer;
+}
+
+.nav-menu ul li {
+    display: inline;
+    margin-left: 35px;
+    font-size: 17px;
+    transition: all ease 2s;
+}
+
+.nav-menu ul li:hover {
+    cursor: pointer;
+}
+
+/* nav-socical */
+.nav-social{
+    font-size: 18px;
+}
+
+.nav-social ul li {
+    display: inline;
+    margin-left: 35px;
+    font-weight: bold;
+}
+
+.nav-social ul li .block-search{
+    position: relative;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.nav-social ul li .block-search input {
+    height: 30px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: all linear 0.5s; 
+}
+
+.nav-social ul li .block-search input:hover {
+    height: 40px;
+    width: 270px;
+}
+
+::placeholder {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-social ul li .block-search i{
+    position: absolute;
+    top: 0;
+    right: -21px;
+    font-size: 17px;
+    transition: all ease 0.1s;
+}
+
+.nav-social ul li .block-search i:hover {
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-social ul li i {
+    font-size: 20px;
+}
+
+.nav-social ul li i:hover {
+    cursor: pointer;
+}
+
+/* ------------------sections-------------------- */
+
+/* --------- carousel ---------- */
+.carousel {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+/* title-main  */
+.carousel .title-main {
+    position: relative;
+    width: 30%;
+    text-align: center;
+}
+
+.carousel .title-main h1 {
+    font-size: 90px;
+    margin-bottom: 20px;
+    padding-left: 80px;
+    font-family: cursive;
+}
+
+.carousel .title-main h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    padding-left: 250px;
+    font-family: cursive;
+
+}
+
+.carousel .title-main h3 {
+    font-size: 60px;
+    padding-left: 400px;
+    font-family: cursive;
+
+
+}
+
+.carousel .title-main span {
+    font-size: 100px;
+    font-family: 'Lobster', fantasy;
+    font-family: 'Tiro Telugu', serif;
+    position: absolute;
+    bottom: 40px;
+    right: -250px;
+    font-weight: bold;
+    color: #f2b705;
+    text-shadow: 10px 10px 10px gray;
+    transition: all ease-in-out 0.5s;
+    
+}
+
+.carousel .title-main span:hover {
+    font-size: 110px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/* img-center */
+.carousel .img-center {
+    
+}
+
+.carousel .img-center img {
+    width: 600px;
+    height: 500px;
+    border-top-left-radius: 556px;
+    border-top-right-radius: 315px;
+    border-bottom-left-radius: 296px;
+    border-bottom-right-radius: 591px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+/* title-extra */
+.carousel .title-extra {
+    display: flex;
+    align-items: center;
+    font-family: 'Lobster', fantasy;
+    font-family: 'Tiro Telugu', serif;
+}
+
+
+.carousel .title-extra ul {
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.carousel .title-extra ul li {
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.carousel .title-extra ul li i {
+    font-size: 28px;
+}
+
+.carousel .title-extra ul li p {
+    color: gray;
+}
+
+/* ------------ destinations ----------- */
+
+.destinations {
+    font-family: 'Tiro Telugu', serif;
+    display: flex;
+    justify-content: space-evenly ;
+    margin: 20px 0;
+    padding: 0 200px 0 200px;
+    
+}
+
+/* des-box  */
+
+.destinations .des-box {
+    border: 1px solid black;
+    padding: 0 50px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+
+.des-box h1 {
+    font-size: 39px;
+    text-decoration: underline;
+
+}
+
+.des-box .box-danang, .box-hoian {
+    width: 200px;
+    /* background-color: #f2b705; */
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Tiro Telugu', serif;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    transition: all ease-in-out 0.2s;
+
+}
+
+.des-box .box-danang:hover {
+    cursor: pointer;
+    width: 210px;
+    background-color: #f2b705;
+}
+
+.des-box .box-hoian {
+    background-color: white;
+}
+
+.des-box .box-hoian:hover {
+    cursor: pointer;
+    width: 210px;
+    background-color: #f2b705;
+}
+
+
+
+/* des-img  */
+
+.destinations .des-img {
+    position: relative;
+
+}
+
+
+.des-img img {
+    object-fit: cover;
+    width: 700px;
+    border-radius: 20px;
+    transition: all ease 0.5s;
+}
+
+.des-img img:hover {
+    cursor: pointer;
+    height: 480px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.des-img .block-title-img {
+    text-align: center;
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+    position: relative;
+}
+
+.block-title-img i {
+    background-color: #f2b705;
+    color: white;
+    border-radius: 50%;
+    font-size: 50px;
+    padding: 20px;
+    position: absolute;
+    top: -100px;
+    left: 40%;
+    /* animation-name: maybay;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+}
+
+
+/* @keyframes maybay {
+    0% {
+        left: 40%;
+        
+    }
+
+    25% {
+        left: 80%;
+
+    }
+
+    50% {
+        left: 100%;
+        opacity: 0;
+        
+    }
+
+    75% {
+        left: 0;
+        opacity: 0;
+        
+
+    }
+
+    100% {
+        left: 40%;
+        
+       
+    }
+} */
+
+.block-title-img h1 {
+    
+}
+
+/* ----------- blogs ----------  */
+
+.blogs {
+    background-color: #f2b705;
+    color: white;
+    margin-top: 120px;
+    height: 600px;
+    font-family: 'Tiro Telugu', serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 200px 0 200px;
+
+}
+
+/* blogs-main  */
+.blogs .blogs-main {
+    
+}
+
+.blogs-main h1 {
+    font-size: 37px;
+    text-decoration: underline;
+    transition: all ease-in-out 0.5s;
+}
+
+.blogs-main h1:hover {
+    cursor: pointer;
+    font-size: 39px;
+}
+
+
+
+.blogs-main .block-img-main {
+    position: relative;
+   
+}
+
+.blogs-main .block-img-main:hover {
+    cursor: pointer;
+}
+
+.block-img-main img {
+    width: 600px;
+    border-radius: 10px;    
+    transition: all ease-in-out 0.5s;
+}
+
+.blogs-main .block-img-main:hover img {
+    width: 650px;
+}
+
+
+.block-img-main p {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-weight: bold;
+    transition: all linear 0.5s;
+}
+
+.blogs-main .block-img-main:hover p {
+    font-size: 22px;
+}
+
+
+
+/* blogs-sub  */
+.blogs-sub {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.blogs-sub .blogs-sub-1 {
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.blogs-sub-1 hr {
+    border-color: white;
+}
+
+.blogs-sub-1 ul {
+
+}
+
+.blogs-sub-1 ul li {
+    display: flex;
+}
+
+.blogs-sub-1 ul li:hover {
+    cursor: pointer;
+    
+}
+
+.blogs-sub-1 ul li img {
+    object-fit: cover;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    transition: all linear 0.4s ;
+}
+
+.blogs-sub-1 ul li:hover img {
+    width: 180px;
+    height: 120px;
+}
+
+
+.blogs-sub-1 ul li p {
+    font-size: 18px;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    transition: all linear 0.4s ;
+
+}
+
+.blogs-sub-1 ul li:hover p {
+    font-size: 21px ;
+}
+
+
+/*  ------------ local-foods----------  */
+.local-foods {
+    padding: 0 200px 0 200px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Tiro Telugu', serif;
+    margin: 50px 0;
+    height: 600px;
+}
+
+
+.local-foods .img-foods{
+    
+   
+}
+
+.img-foods h1 {
+    font-size: 35px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: all linear 0.2s;
+    width: 200px;
+}
+
+.img-foods h1:hover {
+    cursor: pointer;
+    font-size: 38px;
+}
+
+.img-foods span {
+    position: relative;
+}
+
+.img-foods span:hover {
+    cursor: pointer;
+}
+
+
+.img-foods span img {
+    object-fit: cover;
+    width: 350px;
+    height: 450px;
+    margin-right: 60px;
+    border-radius: 20px;
+    transition: all ease-in-out 0.3s;
+}
+
+.img-foods span:hover img {
+    height: 480px;
+    width: 370px;
+}
+
+.img-foods span p {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.img-foods span:hover p {
+    font-size: 27px;
+}
+
+
+/* ----------trip-prearation---------- */
+
+.trip-prearation {
+    font-family: 'Tiro Telugu', serif;
+    background-color: #f2b705;
+    height: 500px;
+    position: relative;
+    margin-top: 300px;
+}
+
+/* block-trip-pre  */
+.trip-prearation .block-trip-pre {
+    padding: 0 120px 0 120px;
+    position: absolute;
+    z-index: 100;
+    top: -250px;
+    left: 10%;
+    
+}
+
+.block-trip-pre h1 {
+    padding-left: 20px;
+    font-size: 35px;
+    text-decoration: underline;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+}
+
+.block-trip-pre h1:hover {
+    font-size: 38px;
+    cursor: pointer;
+}
+
+.block-trip-pre .block-img-trip-pre {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.block-img-trip-pre .block-img-pre-1 {
+    margin-right: 50px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.block-img-trip-pre .block-img-pre-1:hover {
+    cursor: pointer;
+}
+
+.block-img-trip-pre .block-img-pre-1 img{
+    object-fit: cover;
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    transition: all ease-in-out 0.2s ;
+}
+
+.block-img-trip-pre .block-img-pre-1:hover img {
+    width: 650px;
+    height: 370px;
+
+}
+
+.block-img-trip-pre .block-img-pre-1 p {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    transition: all ease-in-out 0.2s;
+}
+
+.block-img-trip-pre .block-img-pre-1:hover p {
+    font-size: 20px;
+}
+
+.block-img-trip-pre .block-img-pre-2 {
+    position: relative;
+}
+
+.block-img-trip-pre .block-img-pre-2:hover {
+    cursor: pointer;
+}
+
+.block-img-trip-pre .block-img-pre-2 img{
+    object-fit: cover;
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    transition: all ease-in-out 0.2s ;
+}
+
+.block-img-trip-pre .block-img-pre-2:hover img {
+    width: 650px;
+    height: 370px;
+}
+
+.block-img-trip-pre .block-img-pre-2 p {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    transition: all ease-in-out 0.2s ;
+}
+
+.block-img-trip-pre .block-img-pre-2:hover p {
+    font-size: 20px;
+}
+
+/* block-search-trip  */
+.block-search-trip {
+    position: absolute;
+    bottom: 80px;
+    left: 35%;
+}
+
+.block-search-trip h1 {
+    font-size: 50px;
+}
+
+.block-search-trip form {
+    position: relative;
+}
+
+.block-search-trip form:hover {
+    cursor: pointer;
+}
+
+.block-search-trip form input {
+    width: 500px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #f2b705;
+    transition: all linear 0.5s;
+}
+
+.block-search-trip form:hover input {
+    width: 520px;
+    
+}
+
+.block-search-trip form input::placeholder {
+    font-size: 18px;
+    text-align: center;
+    color: lightgray;
+}
+
+
+.block-search-trip form i {
+    font-size: 50px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    transition: all linear 0.5s;
+}
+
+.block-search-trip form:hover i {
+    right: 0;
+}
+
+.block-search-trip form i:hover {
+    font-size: 55px;
+    right: -5px;
+    transition: all linear 0.2s;
+}
+
+/* ---------introduce--------- */
+
+.introduce {
+    padding: 0 300px 0 300px;
+    font-family: 'Tiro Telugu', serif;
+
+
+}
+
+.introduce .introduce-danang {
+    margin: 80px 0;
+}
+
+.introduce-danang h1 {
+    font-size: 30px;
+
+}
+
+.introduce-danang p{
+    font-size: 20px;
+    color: rgb(104, 102, 102);
+}
+
+.introduce .introduce-hoian {
+
+}
+
+/* ----------contact---------- */
+.contact {
+    font-family: 'Tiro Telugu', serif;
+    background-color: #f2b705;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+
+}
+
+.contact .contact-email {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #f2b705; */
+    height: 180px;
+    padding: 40px 250px 0px 100px;
+    
+}
+
+.contact-email .contact-logo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.contact-logo img {
+    width: 350px;
+
+}
+
+.contact-email .contact-subcribe {
+
+}
+
+.contact-subcribe form {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.contact-email form input {
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #f2b705;
+    margin-right: 10px;
+}
+
+.contact-email form input::placeholder {
+    font-size: 18px;
+}
+
+.contact-email form button {
+    font-size: 18px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orange;
+    font-weight: bold;
+}
+
+.contact .contact-socical {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 300px 0px 220px;
+    background-color: white;
+    color: #f2b705;
+    font-weight: bold;
+    height: 150px;
+    
+}
+
+.contact-socical .socical-intagram {
+    display: flex;
+    position: relative;
+    
+}
+
+.socical-intagram i {
+    padding-right: 10px;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.socical-intagram p {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+
+.contact .contact-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 270px 30px 190px;
+    background-color: #f2b705;
+    font-weight: bold;
+}
+
+.contact-content .contact-content-sub {
+
+}
+
+.contact-content-sub h1 {
+    font-size: 30px;
+    line-height: 2;
+}
+
+.contact-content-sub ul {
+    list-style-type: none;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.contact hr {
+    border-color: white;
+    border: 1px solid white;
+
+}
+
+.contact .contact-copyright {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #f2b705; */
+    padding: 20px 350px 30px 270px;
+    font-weight: bold;
+}
+
+.contact-copyright .copyright-title {
+    display: flex;
+    
+}
+
+.copyright-title p {
+    margin-right: 20px;
+}
+
+.copyright-title hr {
+    margin-right: 20px;
+    border-color: white;
+    border: 1px solid white;
+}
+
+
+.contact-copyright .copyright-year {
+    display: flex;
+}
+
+.copyright-year i {
+    padding-top: 5px;
+}
+
+.copyright-year p {
+    margin-left: 10px;
+}
